@@ -1,8 +1,11 @@
-# CoLabs - Open Source Collaboration Platform
+<h1>
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving Hand" width="25px" height="25px"> 
+  Welcome to CoLabs - Open Source Collaboration Platform
+</h1>
 
 Welcome to **Colabs**, an open-source project built with **Vite**, **TypeScript**, and **Tailwind CSS**. Colabs is a platform for developers to collaborate on open-source projects across different tech stacks.
 
-This README serves as a guide for developers looking to contribute to the Colabs project, from prerequisites and setup to creating pull requests (PRs).
+This README serves as a guide for developers looking to contribute to the Colabs-Frontend project, from prerequisites and setup to creating pull requests (PRs).
 
 ---
 
