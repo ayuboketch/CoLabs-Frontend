@@ -5,7 +5,10 @@ export default {
       extend: {
          colors: {
             "accentGreen": "#009975",
-            "btnColor": "#1F7964"
+            "darkGreen": "#1F7964"
+         },
+         fontSize: {
+            "xsm": "0.6rem",
          }
       },
    },
