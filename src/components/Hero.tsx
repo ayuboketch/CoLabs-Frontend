@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react';
+import React from 'react';
 // images
 import hero from "../assets/Frame 2085663684.png";
 import image2 from "../assets/Rectangle 18373.png";
@@ -7,10 +7,6 @@ import image4 from "../assets/Rectangle 18375.png";
 import image1 from "../assets/Rectangle18372.png";
 
 export const Hero = () => {
-    const handleMouseEvent = (e: MouseEvent<HTMLButtonElement>) => {
-        e.preventDefault();
-        window.location.href = "/";
-    };
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-4 px-6 gap-4">
             <div className='w-full py-4'>
@@ -33,7 +29,7 @@ export const Hero = () => {
                         <p className='m-0'>500+ contributors and counting</p>
                     </div>
                 </div>
-                <button className="bg-darkGreen text-white py-2 w-48 font-semibold text-sm" onClick={handleMouseEvent}>Add a project</button>
+                <button className="bg-darkGreen text-white py-2 w-48 font-semibold text-sm">Add a project</button>
             </div>
             <div className='h-[300px]'>
                 <img className="img-fluid" alt="hero-image" src={hero} />
