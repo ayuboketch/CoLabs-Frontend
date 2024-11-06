@@ -16,6 +16,9 @@ export type Viewer = {
     record: {
         id: string;
         name: string;
+        avatarUrl: string;
+        username: string;
+        email: string;
     };
     token: string;
 }
@@ -24,8 +27,10 @@ export const viewerqueryOptions = queryOptions({
   queryKey: ["viewer"],
   queryFn: () => {
     return new Promise<Viewer>((resolve,) => {
-      const user = { id: "1", name: "John Doe" };
-      resolve({ record: user, token: "token" });
+      const user = { id: "1", name: "John Doe",
+        avatarUrl:"https://picsum.photos/id/1/200/300",
+        email:"a@b.com",username:"johndoe" } satisfies Viewer["record"];
+      resolve({ record: user, token: "token", } satisfies Viewer);
     });
   },
 
