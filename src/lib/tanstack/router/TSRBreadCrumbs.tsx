@@ -6,8 +6,17 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumbs";
+} from "@/components/ui/breadcrumb";
 interface TSRBreadCrumbsProps {}
+
+/**
+ * A component that renders a breadcrumb path based on the current location.
+ *
+ * This component is optimized for use with TanStack Router, and will automatically
+ * generate a breadcrumb path based on the current location. The component will
+ * hide itself if there are fewer than 2 items in the breadcrumb path.
+ *
+ **/
 
 export function TSRBreadCrumbs({}: TSRBreadCrumbsProps) {
   const { breadcrumb_routes } = useTSRBreadCrumbs();

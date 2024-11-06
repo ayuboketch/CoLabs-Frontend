@@ -16,10 +16,10 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Button } from "../shadcn/ui/button";
+import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
-import { useMediaQuery } from "@/utils/hooks/use-media-query";
-import { useState } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
+
 interface DiaDrawerProps {
   title: string;
   description: string;

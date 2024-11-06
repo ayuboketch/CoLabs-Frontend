@@ -1,4 +1,4 @@
-import { Droplet, FolderKanban, Home, Settings, Store, User, Users, Wallet, Zap } from "lucide-react";
+import {  FolderKanban, Home, Settings, Store, User} from "lucide-react";
 
 export const dashboard_routes = [
 
@@ -44,3 +44,12 @@ export const routes = [
 ] as const;
 
 
+
+
+export const landingPageRoutes= [
+  { name: "about us", href: "https://www.spaceyatech.com/about-us" },
+  { name: "resources", href: "https://www.spaceyatech.com/resources" },
+  { name: "colabs", href: "/dashboard" },
+  { name: "products", href: "https://www.spaceyatech.com/products" },
+  { name: "blog", href: "https://www.spaceyatech.com/blogs" },
+]
