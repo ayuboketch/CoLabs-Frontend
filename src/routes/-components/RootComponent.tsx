@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 
 export function RootComponent() {
   return (
-    <div className="content min-h-screen w-full">
+    <div className="content min-h-screen bg-gradient-to-r from-base-100 via-primary/10 to-base-100 w-full">
       <LandingPageNavbar />
       <Outlet />
       <ReactQueryDevtools buttonPosition="bottom-right" />
