@@ -27,5 +27,4 @@ export const Route = createRootRouteWithContext<{
 }>()({
   component: RootComponent,
   validateSearch: (search) => searchparams.parse(search),
-
 });
