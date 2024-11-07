@@ -43,7 +43,7 @@ export default {
                'neutral': '#deddda',
                'neutral-focus': '#c0bfbc',
                'neutral-content': '#000000',
-               'base-100': '#ced3d9',
+               'base-100': '#ffffff',
                'base-200': '#cfebe3',
                'base-300': '#83b395',
                'base-content': '#000000',
